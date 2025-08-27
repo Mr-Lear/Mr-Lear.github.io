@@ -14,6 +14,7 @@ BBB
 <!-- more -->
 
 ## 开始
+```
 #define TX_LEN 			99
 #define SLAVE_ID 		50	//1-247
 #define Modbus_Send 	My_Transmit_fun  //My_Transmit_fun(int8_t *data,uint len)
@@ -139,3 +140,4 @@ void Modbus_RTU(uint8_t *RX_buffer, uint8_t RX_len)
 		}
 	}
 }
+```
