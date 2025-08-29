@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "基于C++的Modbus从机响应读写寄存器功能的快速搭建"
+title: "基于C的Modbus从机应答快速实现"
 date:   2025-08-27
 tags: [工业通信]
 comments: false
