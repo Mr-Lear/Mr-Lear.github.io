@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "CAN通信"
+title: "MCU+MAC+PHY以太网通信的快速构建及常见问题
+"
 date:   2025-08-28
 tags: [工业通信]
 comments: false
