@@ -56,8 +56,7 @@ void SPI_DMA_Init(void)
     dma_memory_to_memory_disable(DMA0, DMA_CH2);
 }
 ```
-其次是QSPI初始化过程，部分区别于SPI，spi_quad_enable(SPI0);
-	spi_quad_io23_output_enable(SPI0);
+其次是QSPI初始化过程，与常规SPI配置类似，需要个人确认分频，极性等相关内容，部分区别于SPI，参考芯片手册内容QSPI仅支持Master模式，需要spi_quad_enable和spi_quad_io23_output_enable类似的使能配置
 
 ```
 void My_QSPI_Init(void)
