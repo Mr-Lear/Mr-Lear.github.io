@@ -8,7 +8,7 @@ author: lemonchann
 ---
 
 “如果你是非程序员或者不关系技术细节，只需花 3 分钟阅读前面 5 个章节内容，就能轻松拥有自己的博客~~~”
-文章转自@lemonchann，本博客基于此文章搭建，故保留。
+文章转自@lemonchann，如果有意构建个人博客可参阅。
 
 <!-- more -->
 
@@ -414,3 +414,4 @@ _include/svg-icons.html生成社交头像的链接
 
 
 ![公众号二维码](https://upload-images.jianshu.io/upload_images/7842464-15f939ec039690f6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
