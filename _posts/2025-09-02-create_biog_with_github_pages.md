@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CAN通信"
-date:   2025-08-28
+date:   2025-09-02
 tags: [工业通信]
 comments: false
 author: Lear
