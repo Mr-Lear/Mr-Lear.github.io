@@ -87,7 +87,7 @@ void My_QSPI_Init(void)
 	spi_quad_enable(SPI0);
 	spi_quad_io23_output_enable(SPI0);
 	spi_enable(SPI0);         
-}
+}A
 ```
 
 参考常规QSPI的硬件读写时序，由于其半双工特性区别于常规双工SPI，基于之前对单线半双工的SPI 软件通信协议的实现过程的了解，需要在每次READ工作前将DATA线上拉至高电平的一个动作，在常规读写流程中以SPI_DATA(SPI0) = 0xFF表现，另外需要定义QSPI读写方向，因此考虑到DMAREAD过程中也需要类似的SPI_DATA(SPI0) = 0xFF动作，所以想到可以加入同步进行的DMA写入FF流，经验证终于可以实现连续的DMAREAD数据流，至此DMA+QSPI无法DMA读出的问题解决。
