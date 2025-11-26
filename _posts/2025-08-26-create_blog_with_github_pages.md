@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "基于C的Modbus从机应答快速实现"
-date:   2025-08-27
+date:   2025-08-26
 tags: [工业通信]
 comments: false
 author: Lear
